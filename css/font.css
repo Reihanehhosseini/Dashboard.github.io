@@ -1,0 +1,60 @@
+@font-face {
+    font-family:"poppins";
+    src: url("../font/Poppins-Black.woff") format("woff");
+}
+@font-face {
+    font-family:"poppinsbold";
+    src: url("../font/Poppins-Bold.woff") format("woff");
+}
+@font-face {
+    font-family:"poppinsmedium";
+    src: url("../font/Poppins-Medium.woff") format("woff");
+}
+@font-face {
+    font-family:"poppinsregular";
+    src: url("../font/Poppins-Regular.woff") format("woff");
+}
+@font-face {
+    font-family: "ralewayblack";
+    src: url("../font/Raleway-Black.woff") format("woff");
+}
+@font-face {
+    font-family: "ralewaybold";
+    src: url("../font/Raleway-Bold.woff") format("woff");
+}
+@font-face {
+    font-family: "ralewaylight";
+    src: url("../font/Raleway-Light.woff") format("woff");
+}
+@font-face {
+    font-family: "ralewaymedium";
+    src: url("../font/Raleway-Medium.woff") format("woff");
+}
+@font-face {
+    font-family: "ralewayregular";
+    src: url("../font/Raleway-Regular.woff") format("woff");
+}
+@font-face {
+    font-family: "interblack";
+    src: url("../font/Inter_18pt-Black.woff") format("woff");
+}
+@font-face {
+    font-family: "interlight";
+    src: url("../font/Inter_18pt-Light.woff") format("woff");
+}
+@font-face {
+    font-family: "intermedium";
+    src: url("../font/Inter_18pt-Medium.woff") format("woff");
+}
+@font-face {
+    font-family: "robotobold";
+    src: url("../font/Roboto-Bold.woff") format("woff");
+}
+@font-face {
+    font-family: "robotolight";
+    src: url("../font/Roboto-Light.woff") format("woff");
+}
+@font-face {
+    font-family: "robotomedium";
+    src: url("../font/Roboto-Medium.woff") format("woff");
+}

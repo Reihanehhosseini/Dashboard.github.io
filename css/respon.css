@@ -1,0 +1,135 @@
+@media screen and (max-width: 940px) {
+  .sideBar,
+  .header .logo,
+  .search,
+  .account span,
+  .account svg {
+    display: none;
+  }
+  .header {
+    grid-column: 1/3;
+    padding: 20px;
+  }
+  .content {
+    grid-column: 1/3;
+  }
+  .account {
+    width: 50px;
+  }
+  .header_right {
+    gap: 1.5rem;
+  }
+  .sideBar {
+    width: 70%;
+    z-index: 999;
+  }
+  .account_extra{
+    left:-169% ;
+  }
+}
+
+@media screen and (min-width: 941px) {
+  .header .burger_div {
+    display: none;
+  }
+  .search_content {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .container_content {
+    display: inline;
+  }
+  .last_left_content_header {
+    justify-content: space-between;
+  }
+  .first_right_content {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 19rem;
+    justify-content: space-between;
+    max-width: 100%;
+    margin-bottom: 1rem;
+  }
+  .second_right_content {
+    margin-bottom: 2rem;
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 530px) {
+  .last_left_content_header div:nth-child(1) {
+    font-size: 15px;
+    margin-right: 5px;
+  }
+  .last_left_content_header div:last-child {
+    font-size: 11px;
+  }
+  .last_left_content_header .btnsell {
+    font-size: 12px;
+    font-weight: 500;
+    margin-right: 10px;
+  }
+  .ust_price span {
+    font-size: 10px;
+  }
+  .buy_bitcoin_btn button {
+    width: 100px;
+    height: 100px;
+  }
+  .pay_ust{
+    gap: 1rem;
+  }
+  .first_right_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+@media screen and (max-width:430px){
+    .bitcoinlist ul{
+        gap:5px;
+    }
+    .bitcoinlist ul li{
+        width: 30px;
+    }
+    .buy_bitcoin_btn button{
+        width: 70px;
+        height: 70px;
+        font-size: 9px;
+    }
+    .last_left_content_main{
+        justify-content: center;
+        gap: 2rem;
+    }
+    .bitcoin span:last-child {
+        font-family: Ralewaylight;
+        font-size: 12px;
+        font-weight: 700;
+      }
+      .bitcoin span:first-child {
+        font-family: Ralewaylight;
+        font-size: 12px;
+      }
+      .active_btnsell{
+        padding: 5px;
+      }
+      .last_left_content_header div:nth-child(1) {
+        font-size: 13px;
+      }
+      .last_left_content_header div:last-child {
+        font-size: 10px;
+        font-family: Ralewaylight;
+      }
+      .ust {
+        padding: 5px 1px;
+      }
+      .ust_price{
+        gap: 10px;
+      }
+      .last_left_content_header .btnsell{
+        gap: 7px;
+        font-size: 10px;
+      }
+}
+
